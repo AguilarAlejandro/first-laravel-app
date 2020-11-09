@@ -1,1 +1,37 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/* Profile page */
+
+.profile-page {
+max-width: 60%;
+};
+
+.profile-picture {
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+};
+
+.profile-name {
+    font-size: 25px;
+    font-weight: bold
+}
+
+.profile-url{
+    color: rgb(0, 23, 128);
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.btn-follow{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
